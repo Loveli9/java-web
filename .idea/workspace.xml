@@ -44,8 +44,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="231">
-              <caret line="11" column="10" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
+            <state relative-caret-position="189">
+              <caret line="9" column="10" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -230,7 +230,7 @@
       <updated>1570660205152</updated>
       <workItem from="1570660207629" duration="448000" />
       <workItem from="1570663544530" duration="564000" />
-      <workItem from="1570664141907" duration="368000" />
+      <workItem from="1570664141907" duration="741000" />
     </task>
     <task id="LOCAL-00001" summary="hyp的提交">
       <created>1570662990962</created>
@@ -246,7 +246,14 @@
       <option name="project" value="LOCAL" />
       <updated>1570664329179</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="胡亚鹏提交20191010">
+      <created>1570664597414</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1570664597414</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -255,7 +262,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1505000" />
+    <option name="totallyTimeSpent" value="1878000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
@@ -342,7 +349,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="hyp的提交" />
-    <option name="LAST_COMMIT_MESSAGE" value="hyp的提交" />
+    <MESSAGE value="胡亚鹏提交20191010" />
+    <option name="LAST_COMMIT_MESSAGE" value="胡亚鹏提交20191010" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
@@ -362,8 +370,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="11" column="10" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
+        <state relative-caret-position="189">
+          <caret line="9" column="10" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="10" />
         </state>
       </provider>
     </entry>
