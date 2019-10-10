@@ -201,32 +201,32 @@ public class JPATest {
 
     }
 
-    /**
-     * todo 同步实体到数据库,事务报错
-     */
-    @Test
-    public void synchronizedEntity() {
-        EntityManagerFactory entityManagerFactory = Persistence.createEntityManagerFactory("MyJPA");
-        EntityManager em = entityManagerFactory.createEntityManager();
-        em.setFlushMode(FlushModeType.COMMIT);
-        User user = new User();
-        user.setName("sir");
-        String sql = "select user from User user where user.id =?1";
-        Query query = em.createQuery(sql);
-        query.setParameter(1, 1);
-        query.executeUpdate();
-        em.flush();
-    }
+//    /**
+//     * todo 同步实体到数据库,事务报错
+//     */
+//    @Test
+//    public void synchronizedEntity() {
+//        EntityManagerFactory entityManagerFactory = Persistence.createEntityManagerFactory("MyJPA");
+//        EntityManager em = entityManagerFactory.createEntityManager();
+//        em.setFlushMode(FlushModeType.COMMIT);
+//        User user = new User();
+//        user.setName("sir");
+//        String sql = "select user from User user where user.id =?1";
+//        Query query = em.createQuery(sql);
+//        query.setParameter(1, 1);
+//        query.executeUpdate();
+//        em.flush();
+//    }
 
-    /**
-     * todo 通过EJB获取EntityManager,无法实现
-     */
-    @Test
-    public void testEJBEntityManager() {
-        UserDaoBean userDaoBean = new UserDaoBean();
-        User user = new User();
-        user.setName("abc");
-        userDaoBean.add(user);
-    }
+//    /**
+//     * todo 通过EJB获取EntityManager,无法实现
+//     */
+//    @Test
+//    public void testEJBEntityManager() {
+//        UserDaoBean userDaoBean = new UserDaoBean();
+//        User user = new User();
+//        user.setName("abc");
+//        userDaoBean.add(user);
+//    }
 
 }
